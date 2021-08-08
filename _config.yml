@@ -18,8 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Marina Dunn's Website
-email: astromarinadunn@gmail.com
+title: Marina Dunn
+author: Marina Dunn
+name: Marina Dunn
+email: astromarinadunn[at]gmail.com
 description: >- Personal websiter for Marina Dunn, containing education and work background, research and interests
  # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -29,11 +31,29 @@ baseurl: /marinadunn.github.io/"" # the subpath of your site, e.g. /blog
 url: https://marinadunn.github.io"" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: astro__marina
 github_username:  marinadunn
+linkedin: http://www.linkedin.com
 
 # Build settings
-theme: minima
+remote_theme: arnp/herring-cove
 plugins:
   - jekyll-feed
+  
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
