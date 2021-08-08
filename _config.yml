@@ -27,11 +27,11 @@ description: >- Personal websiter for Marina Dunn, containing education and work
   Write an awesome description for your new site here. You can edit this
   Google search results) and in your feed.xml site description.
 domain: marinadunn.github.io
-baseurl: /marinadunn.github.io/"" # the subpath of your site, e.g. /blog
-url: https://marinadunn.github.io"" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/marinadunn.github.io/"  # the subpath of your site, e.g. /blog
+url: "https://marinadunn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: astro__marina
 github_username:  marinadunn
-linkedin: http://www.linkedin.com
+linkedin: http://www.linkedin.com/in/marina-dunn
 
 # Build settings
 remote_theme: arnp/herring-cove
