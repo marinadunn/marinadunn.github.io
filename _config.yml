@@ -36,9 +36,6 @@ plugins:
   - jekyll-feed
   
 highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
 
 defaults:
   - scope:
