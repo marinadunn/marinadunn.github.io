@@ -22,13 +22,13 @@ title: Marina Dunn
 author: Marina Dunn
 name: Marina Dunn
 email: astromarinadunn[at]gmail.com
-description: >- Personal websiter for Marina Dunn, containing education and work background, research and interests
+description: >- Personal website for Marina Dunn, containing education and work background, research and interests
  # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   Google search results) and in your feed.xml site description.
 domain: marinadunn.github.io
-baseurl: "/marinadunn.github.io/"  # the subpath of your site, e.g. /blog
-url: "https://marinadunn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /marinadunn.github.io/ # the subpath of your site, e.g. /blog
+url: https://marinadunn.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: astro__marina
 github_username:  marinadunn
 linkedin: http://www.linkedin.com/in/marina-dunn
