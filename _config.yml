@@ -19,8 +19,6 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Marina Dunn
-author: Marina Dunn
-name: Marina Dunn
 email: astromarinadunn[at]gmail.com
 description: Personal website for Marina Dunn, containing education and work background, research and interests
 domain: marinadunn.github.io
@@ -31,7 +29,7 @@ github_username:  marinadunn
 linkedin: http://www.linkedin.com/in/marina-dunn
 
 # Build settings
-remote_theme: arnp/herring-cove
+theme: minima
 plugins:
   - jekyll-feed
   
