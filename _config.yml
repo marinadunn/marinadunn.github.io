@@ -35,7 +35,6 @@ remote_theme: arnp/herring-cove
 plugins:
   - jekyll-feed
   
-highlighter: rouge
 
 defaults:
   - scope:
