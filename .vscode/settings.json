@@ -1,0 +1,34 @@
+{
+    "cSpell.words": [
+        "adipiscing",
+        "Besla",
+        "Consequat",
+        "etiam",
+        "gravida",
+        "Gurtina",
+        "Interdum",
+        "Kitt",
+        "lacinia",
+        "Lemmon",
+        "lobortis",
+        "nunc",
+        "TIMESTEP",
+        "veroeros"
+    ],
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.cursorStyle": "line-thin",
+    "terminal.integrated.cursorBlinking": true,
+    "cSpell.enableFiletypes": [
+        "!cpp",
+        "!csharp",
+        "!go",
+        "!handlebars",
+        "!jade",
+        "!java",
+        "!php",
+        "!rust",
+        "!swift",
+        "bibtex",
+        "sql"
+    ]
+}
