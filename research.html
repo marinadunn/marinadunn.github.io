@@ -36,11 +36,11 @@
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html">About Me</a></li>
-							<li><a href="Dunn_Marina_CV.pdf">My CV</a></li>
+							<li><a href="Dunn_Marina_CV.pdf">CV</a></li>
 							<li><a href="research.html">Research</a></li>
 							<li><a href="outreach.html">Outreach</a></li>
-							<li><a href="additional.html">Press & Contributions</a></li>
-							<li><a href="art.html">Art</a></li>
+							<li><a href="contributions.html">Publications & Contributions</a></li>
+							<li><a href="extras.html">Extracurriculars</a></li>
 						</ul>
 					</nav>
 
@@ -48,60 +48,101 @@
 					<div id="main">
 						<div class="inner">
 							<h1>Research Projects</h1>
-				
-							<a href='https://data-science.llnl.gov/dssiLLNL'><h2>Data Science Summer Institute Internship(2022-Present)</h2> </a>
-							<p> I am currently researching and developing a visualization application 
-								for the scaleable Gaussian Process hyper-parameter estimation method MuyGPs, 
-								and exploring Gaussian Process applications for future astronomical surveys such as 
-								LSST, including research involving galaxy blend classification and weak lensing shear.
-							</p>
 
-							<h2>Classifying Galaxy Morphologies Using Bayesian Neural Networks to Support Future Astronomical Surveys (2021-Present)</h2>
-							<p> I currently work on an interdisciplinary research project with Astronomy Professor Dr. Bahram Mobasher (UCR) and Dr. Aleksandra Ciprijanovic (Fermilab) 
-								as part of the M.S. Engineering: Data Science Program at UC Riverside. I am currently exploring using Bayesian Nutilizing Bayesian Neural Networks to 
-								classify morphologies of early galaxies. I am researching this for both simulated noisy and pristine image data for the upcoming LSST project, as well as
-								simulated and real data from the Hubble Space Telescope, in order to compare how the models performs when switching between simulated and real astronomical data, 
-								and on additional observational data releases. This will help demonstrate the effects of observational realism on model performance as it shifts between different 
-								data sources and newer data releases. The use of Bayesian Neural Networks will allow for obtaining quantified uncertainties in model predictions. I meet with the 
-								Deepskies Lab research group weekly to discuss and receive feedback on the project.
+							<h1>NASA</h1>
+							<h2>NASA LaRC: Machine Learning Showroom (2022-Present)</h2>
+							<p> As part of NASA Langley Research Center, I currently work on the Information, Data, & Analytics Services (IDAS) team
+								building a host of ready-to-use Machine Learning models and data visualization tools for NASA teams to try out and evaluate
+								whether they want to request additional Data Science services for their work.
 							</p>
-							<center>
-								<img 
-								src="images/telescope.jpg" 
-								width=150 
-								height=230
-								alt="Marina standing outside the Discovery telescope in California"
-								/>
-								</center>
-							<br>
-							<a href='https://eis.smce.nasa.gov/about.html'><h2>NASA Earth Information Systems Internship (2021-2022)</h2> </a>
+							<h2>NASA GSFC: Earth Information Systems (2021-2022)</h2>
 							<p> As part of NASA's Goddard Space Flight Center's Earth Information Systems (EIS) team, I researched optimal strategies for migrating and storing
-								NASA Earth Science data and models to the commercial cloud in order to allow for faster, more efficient analysis for scientific exploration. 
-								This included exploring strategies for a variety of wildfire-related datasets to integrate into the cloud-based EIS Fire Portal, which is designed 
+								NASA Earth Science data and models to the commercial cloud in order to allow for faster, more efficient scientific analysis. 
+								This included exploring strategies for a variety of wildfire-related datasets to integrate into the <a href='https://eis.smce.nasa.gov/about.html'>EIS Fire Portal</a>, which is designed 
 								to support the scientific understanding and analysis of current and projected fire activity, and support organizations focused on fire and air quality forecasting.
-								Our intern team was able to demostrate the benefits of the powerful, cloud-optimized Zarr file format, and the direct effects of a given chunking strategy on processing 
+								Our intern team was able to demostrate the benefits of the powerful, cloud-optimized Zarr file format, and the direct effects of certain chunking strategies on processing 
 								speed and memory usage when performing common data access and analysis operations with large multi-dimensional datasets. This work was submitted for publishing to
-								the Journal of Earth and Space Sciences in April 2022, and is available here: <a href='https://doi.org/10.1002/essoar.10511054.1'>here.</a> <br>
+								the Journal of Earth and Space Sciences in 2022; more information is available here: <a href='https://doi.org/10.1002/essoar.10511054.1'>here.</a> <br>
 								<br>
-								In additon, for the NASA Surface Biology and Geology High-Frequency Time Series (SHIFT) campaign, which involved collecting hyperspectral imaging data 
+								In additon, for the NASA Surface Biology and Geology High-Frequency Time Series (SHIFT) campaign, which involves collecting hyperspectral imaging data 
 								of vegetation, I designed a data pipeline that transforms raw spectral data into the cloud-optimized, analysis-ready Zarr format. This 
 								pipeline provides an organized and simplified approach to extracting, transforming, visualizing and analyzing data through a Science 
 								Managed Cloud Environment (SMCE). I stored this data in a SpatioTemporal Asset Catalog (STAC) specification-compliant format, which will 
 								allow for easier future indexing, discovery, and analysis. In addition, I created interactive notebooks demonstrating accessing this data from an AWS S3 bucket, 
-								and performing common data operations with visualizations. This code is thoroughly documented code on my Github profile.
+								and performing common data operations with visualizations. This code is documented code on my Github profile.
 							</p>
-							<br/>	
+							<center>
+								<img 
+								src="images/NASA Spring 2022 Final Poster.jpg" 
+								width=600
+								height=auto
+								alt="NASA poster for the SBG SHIFT project"
+								/>
+								</center>
+							<br>
+							<br/>
 
-							<a href='http://uaastroclub.org/projects/radio-astronomy-project/'><h2>UA Astro Club Radio Astronomy Project (2015-2018)</h2> </a>
-							<p> As part of a research project offered through our undergraduate Astronomy Club with Dr. Yancy Shirley, my group 
-							observed with the Arizona Radio Observatory 12-Meter Telescope on Kitt Peak for several semesters, searching for dense, 
-							dark clouds that would be good candidates for future star formation. Some of the biggest questions regarding star formation 
-							include how frequently and rapidly stars are being created in specific environments. In order to better understand these questions, 
-							we observed 101 starless clumps identified in the Bolocam Galactic Plane Survey with specific molecular transitions that may indicate
-							that the mass is increasing. We determined 6 that were actively collecting enough material to produce stars. Using a radiative transfer 
-							model, we found the rate at which these clumps were collecting material ranged approximately 500 - 2000 M⊙/Myr, meaning the cores’ 
-							masses will likely double in a free-fall time. This means they are increasing significantly and may begin producing stars in the near 
-							future. I co-authored this work, which was published in the Astrophysical Journal in 2018. It is available <a href='https://arxiv.org/abs/1805.00036'>here.</a>
+							<h1>Lawrence Livermore National Laboratory</h1>
+							<a href='https://data-science.llnl.gov/dssi/class/2022'><h2>Data Science Summer Institute (Summer 2022)</h2> </a>
+							<p> As part of the <a href='https://data-science.llnl.gov/dssi/class/2022'>LLNL DSSI Class of 2022</a>, I researched 
+								and developed a visualization tool for better model optimization, specifically for an orbital debris project that uses
+								the scaleable Gaussian Process hyper-parameter estimation method 'MuyGPs' for predictive modeling. The goal of this project
+								is to accurately fill in gaps of missing observations of orbital debris to complete catalogs of known satellites. This tool
+								helps researchers better see the structure of models and which parameters have the most influence on performance. You can view 
+								my 3-minute Summer Slam Talk on this project on <a href="https://www.youtube.com/watch?v=Ru11sTYCk98">YouTube</a>.
+
+								In the upcoming months, we hope to expand this tool to include applications for future astronomical surveys such as 
+								the Vera C. Rubin Observatory Legacy Survey of Space and Time (LSST), including for research involving galaxy 
+								blend classification and weak lensing shear.
+
+								In addition, as part of the DSSI Challenge Problem, I researched various Machine Learning approaches, including fusion of models,
+								using molecular descriptors and 3D atomic representations of drug-like compounds targeting SARS-CoV-2 to rapidly screen them in 
+								an effort to identify which may best treat or prevent the virus. More information on this can be found on 
+								<a href="https://github.com/marinadunn/covid19-drug-screening-ML">my GitHub</a>.
+							</p>
+							<center>
+								<video width=750 height=auto autoplay>
+								<source src="images/plot-example-animation.mov" type="video/mp4">
+								</video>
+							</center>
+							<br>
+
+							<h1>University of California, Riverside / Deep Skies Lab</h1>
+
+							<h2>Classifying Galaxy Morphologies Using Bayesian Neural Networks to Support LSST (2021-Present)</h2>
+							<p> I currently do interdisciplinary research for my thesis with Professor Dr. Bahram Mobasher (UCR), Dr. Brian Nord 
+								(U Chicago/Fermilab/Kavli Institute), and Dr. Aleksandra Ciprijanovic (Fermilab) using Bayesian Neural Networks to 
+								classify morphologies of early galaxies with simulated data in preparation for the Vera C. Rubin Observatory Legacy Survey 
+								of Space and Time (LSST). The use of Bayesian Neural Networks will allow for obtaining quantified uncertainties in model 
+								predictions. I am hoping to explore how these models perform when switching between simulated and real astronomical data, 
+								and on additional observational data releases. This will help demonstrate the effects of observational realism on model 
+								performance as it shifts between different data sources and newer data releases.
+
+								More information on this can be found on <a href="https://github.com/marinadunn/thesis">my GitHub</a>.
+							</p>
+							<center>
+								<img 
+								src="images/example_images.jpg" 
+								width=500 
+								height=auto
+								alt="Example images of galaxy morphologies simulated for LSST"
+								/>
+								<figcaption>Source: Aleksandra Ciprijanovic</figcaption>
+								</center>
+							<br>
+							
+							<h1>The University of Arizona Steward Observatory</h1>
+
+							<a href='http://uaastroclub.org/projects/radio-astronomy-project/'><h2>Astronomy Club Radio Astronomy Project (2015-2018)</h2> </a>
+							<p> As part of a research project offered through our undergraduate Astronomy Club with Dr. Yancy Shirley, my group observed 
+								with the Arizona Radio Observatory 12-Meter Telescope on Kitt Peak for several semesters, searching for dense, 
+								dark clouds that would be good candidates for future star formation. Some of the biggest questions regarding star formation 
+								include how frequently and rapidly stars are being created in specific environments. In order to better understand these questions, 
+								we observed 101 starless clumps identified in the Bolocam Galactic Plane Survey with specific molecular transitions that may indicate
+								that the mass is increasing. We determined 6 that were actively collecting enough material to produce stars. Using a radiative transfer 
+								model, we found the rate at which these clumps were collecting material ranged approximately 500 - 2000 M⊙/Myr, meaning the cores’ 
+								masses will likely double in a free-fall time. This means they are increasing significantly and may begin producing stars in the near 
+								future. I co-authored this work, which was published in the Astrophysical Journal in 2018. It is available <a href='https://arxiv.org/abs/1805.00036'>here.</a>
 							</p>
 							<center>
 							<img 
@@ -126,44 +167,43 @@
 							</center>
 							<br>
 
-							<a href='http://soral.as.arizona.edu/Welcome.html'><h2>GUSTO/Balloon Telescopes/SuperCam (2016-2017)</h2> </a> 
+							<h2>GUSTO/Balloon Telescopes/SuperCam (2016-2017)</h2>
 							<p> In 2016, I began working in the Steward Observatory Radio Astronomy Laboratory (SORAL) with Dr. Chris Walker. My first several months consisted of 
-							writing significant proposal components, procuring instrument estimates, and managing large budgets for two NASA missions: the balloon-borne 
-							observatory, GUSTO, and the Europa Ice and Ocean Structure Seismometer (SIIOS). I collaborated on a large team of scientists and engineers from 
-							various institutions on a weekly basis. In addition, I also successfully organized preparations for the NASA site visit for GUSTO in January of 
-							017, marking its transition into the next phase of the mission and $40 million in funding. The following year, I assisted in writing proposals 
-							for a high resolution, spherical, space-based, inflatable observatory called the Terahertz Space Telescope, which could be used for observations 
-							such as probing protoplanetary disks or observing outgassing on bodies like Europa. For this project, I built antenna prototypes in a welding shop,
-							tested them, and presented preliminary results for the Office of Naval Research (ONR), resulting in full project funding. Based on these 
-							experiences, I knew I wanted to pursue working on upcoming large-scale space missions. 
+								writing significant proposal components, procuring instrument estimates, and managing large budgets for two NASA missions: the balloon-borne 
+								observatory, GUSTO, and the Europa Ice and Ocean Structure Seismometer (SIIOS). I collaborated on a large team of scientists and engineers from 
+								various institutions on a weekly basis. In addition, I also successfully organized preparations for the NASA site visit for GUSTO in January 2017, 
+								marking its transition into the next phase of the mission and $40 million in funding. The following year, I assisted in writing proposals 
+								for a high resolution, spherical, space-based, inflatable observatory called the Terahertz Space Telescope, which could be used for observations 
+								such as probing protoplanetary disks or observing outgassing on bodies like Europa. For this project, I built antenna prototypes in a welding shop,
+								tested them, and presented preliminary results for the Office of Naval Research (ONR), resulting in full project funding. Based on these 
+								experiences, I knew I wanted to pursue working on upcoming large-scale space missions. 
 
-							In 2017, I continued working with SORAL, focusing on the lifecycle of the interstellar medium. In particular, I studied the impact of turbulence 
-							from nearby star formation on the evolution of giant molecular clouds (GMCs). Using data from the instrument SuperCam installed on the 
-							Submillimeter Telescope on Mt. Graham, I looked at a GMC known as R Coronae Australis (R CrA). This observation was part of a larger 500-degree 
-							survey of the Milky Way plane with the highest spatial resolution yet achieved in this wavelength range. This observation focused on a specific 
-							molecular transition of carbon monoxide, and by using the velocity of the molecule and width of the spectral line, I calculated gas temperature 
-							and column density (mass thickness). These measurements allowed me to use Python to create integrated intensity maps and determine the energy 
-							balance within the cloud. By doing this, I confirmed previous hypotheses that within R CrA, there is a 
-							young star generating outflows on both sides of the cloud, thus driving star formation. 
+								In 2017, I continued working with SORAL, focusing on the lifecycle of the interstellar medium. In particular, I studied the impact of turbulence 
+								from nearby star formation on the evolution of giant molecular clouds (GMCs). Using data from the instrument SuperCam installed on the 
+								Submillimeter Telescope on Mt. Graham, I looked at a GMC known as R Coronae Australis (R CrA). This observation was part of a larger 500-degree 
+								survey of the Milky Way plane with the highest spatial resolution yet achieved in this wavelength range. This observation focused on a specific 
+								molecular transition of carbon monoxide, and by using the velocity of the molecule and width of the spectral line, I calculated gas temperature 
+								and column density (mass thickness). These measurements allowed me to use Python to create integrated intensity maps and determine the energy 
+								balance within the cloud. By doing this, I confirmed previous hypotheses that within R CrA, there is a 
+								young star generating outflows on both sides of the cloud, thus driving star formation. 
 							</p>
 							<center>
 							<img 
 							src="images/15941420_10207787746122216_5090204071895926684_n.jpg" 
 							width=auto 
-							height=230
-							alt="Undergraduate students at the 2017 American Astronomical Society conference"
+							height=350
+							alt="Undergraduate students at the 2017 American Astronomical Society Conference"
 							/>
 							<img 
-							src="images/15940360_10207787746162217_8351069463189067187_n.jpg" 
+							src="images/AAS_2017_Poster.jpg"
 							width=auto 
-							height=200
-							alt="2017 American Astronomical Society conference poster"
+							height=400
+							alt="My 2017 American Astronomical Society conference poster on the Terahertz Space Telescope"
 							/>
 							</center>
 							<br>
-							<br/>
-							<!--<span class="image main"><img src="images/illustris.png" alt="" /></span>-->
-							<a href='https://sites.google.com/a/email.arizona.edu/ua-extrasolar-planet-project/'><h2>Characterizing Transiting Exoplanet Atmospheres - AZGOE (2014-2016)</h2></a>
+
+							<a href='https://sites.google.com/a/email.arizona.edu/ua-extrasolar-planet-project/'><h2>Characterizing Transiting Exoplanet Atmospheres (2014-2016)</h2></a>
 							<p> As a Freshman undergraduate, I worked with Dr. Rob Zellem and Dr. Caitlin Griffith to characterize the 
 							atmospheres of transiting exoplanets. I regularly observed exoplanets like XO-2b, a hot Jupiter-like planet, with the 61” Kuiper telescope 
 							on Mt. Bigelow, and looked at the corresponding light curves of the host star’s light dimming as planets passed in front. I studied the change 
@@ -174,15 +214,21 @@
 							</p>
 							<center>
 							<img 
-							src="images/12509268_671750696299825_6409511052104202584_n.jpg" 
-							width=400 
-							height=240 
-							alt="myself and jenny calahan presenting poster at the 2016 AAS Meeting"
+							src="images/12509268_671750696299825_6409511052104202584_n_Fotor.jpg" 
+							width=350 
+							height=auto 
+							alt="Myself and Jenny Calahan presenting our poster at the 2016 AAS Meeting"
+							/>
+							<img 
+							src="images/12496411_995981587139619_922266024782754604_o_Fotor.jpg" 
+							width=350 
+							height=auto 
+							alt="Undergraduate Astronomy Club members at the 2016 AAS Meeting"
 							/>	
 							<img 
 							src="images/AAS_2016_Poster.001.jpeg" 
-							width=600 
-							height=500 
+							width=550 
+							height=auto 
 							alt="2016 AAS Meeting poster"
 							/>
 							</center>
