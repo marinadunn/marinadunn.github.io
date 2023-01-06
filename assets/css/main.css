@@ -2949,20 +2949,30 @@ body.is-touch .tiles article .content {
 /* Header */
 
 #header {
-	padding: 1em 0 1em 0;
+	padding: 4em 0;
 	background-color: #e9cbfc;
+}
+
+#header .inner {
+	display: flex;
+	justify-content: center;
 }
 
 #header .logo {
 	display: block;
-	border-bottom: 0;
+	border: none;
 	color: inherit;
 	font-weight: 900;
 	letter-spacing: 0.35em;
-	margin: 0 0 2.5em 0;
 	text-decoration: none;
 	text-transform: uppercase;
-	display: inline-block;
+}
+
+#header .logo h1,
+#header .logo h2 {
+	margin: 0;
+	display: block;
+	text-align: center;
 }
 
 #header .logo>* {
@@ -3453,3 +3463,4 @@ body.is-menu-visible #menu .close {
 	}
 
 }
+
