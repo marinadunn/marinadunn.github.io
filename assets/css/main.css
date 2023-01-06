@@ -2694,7 +2694,7 @@ button:disabled,
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	position: relative;
-	margin: -2.5em 0 0 -2.5em;
+	gap: 2.5em;
 }
 
 .tiles article {
@@ -2703,8 +2703,13 @@ button:disabled,
 	-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 	transition: transform 0.5s ease, opacity 0.5s ease;
 	position: relative;
-	width: calc(33.33333% - 2.5em);
-	margin: 2.5em 0 0 2.5em;
+	width: calc((100% / 3) - (5em / 3));
+	box-sizing: border-box;
+}
+
+.tiles article:hover {
+	transform: scale(1.1);
+	z-index: 3;
 }
 
 .tiles article>.image {
