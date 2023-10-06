@@ -1,3 +1,5 @@
+Personal Website for Marina M. Dunn built using Jekyll, hosted by Github Pages.
+
 Template:
 Phantom by HTML5 UP
 html5up.net | @ajlkn
