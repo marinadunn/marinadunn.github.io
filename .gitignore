@@ -86,6 +86,9 @@ target/
 */.DS_Store
 .DS_Store/
 */.DS_Store/
+/.DS_Store
+.DS_Store*
+*.DS_Store
 
 # IPython
 profile_default/
