@@ -175,3 +175,4 @@ cython_debug/
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+.DS_Store
