@@ -2373,6 +2373,7 @@ input, select, textarea {
 /* Image Gallery */
 	.footer {
 		font-style: italic;
+		padding-top: 20px;
 		margin-top: 20px;
 	}
 
@@ -3258,7 +3259,9 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 0 0 0 0 ;
+		padding-top: 20px;
+		width: 100%;
+		margin-top: 20px; /* space between content and footer */
 		background-color: #e9cbfc;
 	}
 
