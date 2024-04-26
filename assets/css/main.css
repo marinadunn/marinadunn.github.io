@@ -2372,7 +2372,7 @@ input, select, textarea {
 
 /* Image Gallery */
 	.footer {
-		font-style: italic;
+		font-style: normal;
 		padding-top: 20px;
 		margin-top: 20px;
 	}
