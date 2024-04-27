@@ -2923,7 +2923,9 @@ input, select, textarea {
 /* Header */
 
 	#header {
+		width: 100%;
 		padding-top: 1em;
+		padding-left: 20px;
 		padding-bottom: 0.1em;
 		background-color: #e9cbfc;
 	}
@@ -3262,6 +3264,7 @@ input, select, textarea {
 
 	#footer {
 		padding-top: 20px;
+		padding-left: 20px;
 		width: 100%;
 		margin-top: 20px; /* space between content and footer */
 		background-color: #e9cbfc;
