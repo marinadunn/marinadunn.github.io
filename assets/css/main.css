@@ -2549,24 +2549,23 @@ input, select, textarea {
 		background-color: #502B78; /* This is for the color of the button */
 		border-radius: 12px;
 		border: none;
-		box-shadow: inset 0 0 0 2px #585858;
+		box-shadow: none;
 		color: #0A0B2F !important;  /* This is for the font color of the button */
 		cursor: pointer;
 		display: inline-block;
-		font-size: 20px;
+		font-size: 20px; /* This is for the font size of the button */
 		font-weight: 900;
-		width: 150px;
-		height: 50px;
+		width: 500px; /* This is for the width of the button */
+		height: auto; /* This is for the height of the button */
 		letter-spacing: 0.35em;
 		line-height: 3.45em;
-		overflow: visible;
+		overflow: hidden;
 		padding: 20px;
 		text-align: center;
 		text-decoration: none;
 		text-overflow: ellipsis;
 		text-transform: uppercase;
 		white-space: nowrap;
-		vertical-align: middle;
 	}
 
 		input[type="submit"].icon:before,
