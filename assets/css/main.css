@@ -1846,7 +1846,7 @@ input, select, textarea {
 			width: 2.65em;
 			height: 2.65em;
 			display: inline-block;
-			text-align: center;
+			text-align: top;
 			line-height: 2.65em;
 			color: inherit;
 		}
