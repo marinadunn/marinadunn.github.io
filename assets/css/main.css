@@ -2564,7 +2564,7 @@ input, select, textarea {
 		color: #ffffff !important;  /* This is for the font color of the button */
 		cursor: pointer;
 		display: inline-block;
-		font-size: 20px; /* This is for the font size of the button */
+		font-size: 18px; /* This is for the font size of the button */
 		font-weight: 900;
 		letter-spacing: 0.35em;
 		line-height: 3.45em;
@@ -2574,9 +2574,9 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
-		width: auto ; /* This is for the width of the button */
-		max-width: 100% ;
-		height: auto ; /* This is for the height of the button */
+		width: auto; /* This is for the width of the button */
+		max-width: 100%;
+		height: auto; /* This is for the height of the button */
 	}
 
 		input[type="submit"].icon:before,
@@ -2584,7 +2584,8 @@ input, select, textarea {
 		input[type="button"].icon:before,
 		button.icon:before,
 		.button.icon:before {
-			margin-right: 0.5em;
+			margin-right: 0.25em;
+			margin-left: 0.25em;
 		}
 
 		input[type="submit"].fit,
