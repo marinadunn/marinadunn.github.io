@@ -2315,17 +2315,17 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-		width: auto ; /* This is for the width of the button */
+		width: auto ; /* This is for the width of the image */
 		max-width: 100% ;
-		height: auto ; /* This is for the height of the button */
+		height: auto ; /* This is for the height of the image */
 	}
 
 		.image img {
 			border-radius: 4px;
 			display: block;
-			width: auto ; /* This is for the width of the button */
+			width: auto ; /* This is for the width of the image */
 			max-width: 100% ;
-			height: auto ; /* This is for the height of the button */
+			height: auto ; /* This is for the height of the image */
 		}
 
 		.image.left, .image.right {
@@ -2365,9 +2365,9 @@ input, select, textarea {
 		}
 
 			.image.main img {
-				width: 100%;
-				min-width: 30% !important;
-				max-width: 100% !important;
+				width: auto ; /* This is for the width of the image */
+				max-width: 100% ;
+				height: auto ; /* This is for the height of the image */
 			}
 
 			@media screen and (max-width: 736px) {
@@ -2383,9 +2383,9 @@ input, select, textarea {
 		font-style: normal;
 		padding-top: 20px;
 		margin-top: 20px;
-		width: auto ;
+		width: auto ; /* This is for the width of the image */
 		max-width: 100% ;
-		height: auto ;
+		height: auto ; /* This is for the height of the image */
 	}
 
 	a {
