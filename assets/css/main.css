@@ -2315,13 +2315,17 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-		min-width: 30% !important;
-		max-width: 100% !important;
+		width: auto ; /* This is for the width of the button */
+		max-width: 100% ;
+		height: auto ; /* This is for the height of the button */
 	}
 
 		.image img {
 			border-radius: 4px;
 			display: block;
+			width: auto ; /* This is for the width of the button */
+			max-width: 100% ;
+			height: auto ; /* This is for the height of the button */
 		}
 
 		.image.left, .image.right {
@@ -2379,8 +2383,9 @@ input, select, textarea {
 		font-style: normal;
 		padding-top: 20px;
 		margin-top: 20px;
-		min-width: 100% !important;
-		max-width: 100% !important;
+		width: auto ;
+		max-width: 100% ;
+		height: auto ;
 	}
 
 	a {
@@ -2561,16 +2566,17 @@ input, select, textarea {
 		display: inline-block;
 		font-size: 20px; /* This is for the font size of the button */
 		font-weight: 900;
-		width: 500px; /* This is for the width of the button */
-		height: auto; /* This is for the height of the button */
 		letter-spacing: 0.35em;
 		line-height: 3.45em;
 		overflow: visible;
-		padding: 20px;
+		padding: 10px;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+		width: auto ; /* This is for the width of the button */
+		max-width: 100% ;
+		height: auto ; /* This is for the height of the button */
 	}
 
 		input[type="submit"].icon:before,
@@ -2928,9 +2934,9 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		width: 100%;
-		min-width: 100% !important;
-		max-width: 100% !important;
+		width: auto ; /* This is for the width of the header */
+		max-width: 100% ;
+		height: auto ; /* This is for the height of the header */
 		padding-top: 1em;
 		padding-left: 20px;
 		padding-bottom: 0.1em;
@@ -3272,11 +3278,11 @@ input, select, textarea {
 	#footer {
 		padding-top: 20px;
 		padding-left: 20px;
-		width: 100%;
 		margin-top: 20px; /* space between content and footer */
 		background-color: #e9cbfc !important;
-		min-width: 100% !important;
-		max-width: 100% !important;
+		width: auto ; /* This is for the width of the footer */
+		max-width: 100% ;
+		height: auto ; /* This is for the height of the footer */
 	}
 
 		#footer > .inner {
