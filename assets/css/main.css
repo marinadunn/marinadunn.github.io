@@ -2565,14 +2565,12 @@ input, select, textarea {
 		height: auto; /* This is for the height of the button */
 		letter-spacing: 0.35em;
 		line-height: 3.45em;
-		overflow: hidden;
+		overflow: visible;
 		padding: 20px;
 		text-align: center;
 		text-decoration: none;
-		text-overflow: ellipsis;
 		text-transform: uppercase;
 		white-space: nowrap;
-		min-width: 30% !important;
 	}
 
 		input[type="submit"].icon:before,
