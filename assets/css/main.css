@@ -2550,7 +2550,7 @@ input, select, textarea {
 		border-radius: 12px;
 		border: none;
 		box-shadow: none;
-		color: #0A0B2F !important;  /* This is for the font color of the button */
+		color: #ffffff !important;  /* This is for the font color of the button */
 		cursor: pointer;
 		display: inline-block;
 		font-size: 20px; /* This is for the font size of the button */
