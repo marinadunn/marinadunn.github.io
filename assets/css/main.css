@@ -2379,6 +2379,8 @@ input, select, textarea {
 		font-style: normal;
 		padding-top: 20px;
 		margin-top: 20px;
+		min-width: 100% !important;
+		max-width: 100% !important;
 	}
 
 	a {
@@ -2930,7 +2932,7 @@ input, select, textarea {
 
 	#header {
 		width: 100%;
-		min-width: 30%;
+		min-width: 100% !important;
 		max-width: 100% !important;
 		padding-top: 1em;
 		padding-left: 20px;
@@ -3276,7 +3278,7 @@ input, select, textarea {
 		width: 100%;
 		margin-top: 20px; /* space between content and footer */
 		background-color: #e9cbfc !important;
-		min-width: 30%;
+		min-width: 100% !important;
 		max-width: 100% !important;
 	}
 
