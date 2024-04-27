@@ -2315,6 +2315,8 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		min-width: 30% !important;
+		max-width: 100% !important;
 	}
 
 		.image img {
@@ -2360,6 +2362,8 @@ input, select, textarea {
 
 			.image.main img {
 				width: 100%;
+				min-width: 30% !important;
+				max-width: 100% !important;
 			}
 
 			@media screen and (max-width: 736px) {
